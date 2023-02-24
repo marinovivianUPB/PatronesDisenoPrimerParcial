@@ -2,6 +2,14 @@ package patronesdisenoprimerparcial.primerParcialFilaA.ejercicio4Builder;
 
 public class MegaPaqueteBuilder extends BuilderPaquete{
 
+    
+
+    @Override
+    public void buildTipo() {
+      paquete.setTipo("Mega Paquete");
+        
+    }
+
     @Override
     public void buildChocolate() {
         paquete.setChocolate("2, Tamaño: grande");

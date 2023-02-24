@@ -1,6 +1,14 @@
 package patronesdisenoprimerparcial.primerParcialFilaA.ejercicio4Builder;
 
 public class PaqueteMedianoBuilder extends BuilderPaquete {
+
+    
+    @Override
+    public void buildTipo() {
+      paquete.setTipo("Paquete Mediano");
+        
+    }
+
     @Override
     public void buildChocolate() {
         paquete.setChocolate("1, Tamaño: normal");
